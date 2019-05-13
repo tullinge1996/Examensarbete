@@ -1,0 +1,347 @@
+.section1Info{
+    display: grid;
+    grid-row: 1/7;
+    grid-column: 1/8;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(56,1fr);
+    grid-gap: 0;
+    -webkit-animation: fadein 3.5s;
+}
+@media only screen and (max-width: 600px) {
+.container1Info{
+    grid-row: 2/10;
+    grid-column: 2/7;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+}
+.container2Info{
+    grid-row: 18/47;
+    grid-column: 2/7;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+}
+
+.container2Info h4 {
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.container3Info{
+    grid-row: 13/17;
+    grid-column: 2/7;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+}
+.container3Info h1 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.containerbutton{
+    grid-row: 47/50;
+    grid-column: 2/7;
+    color: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.containerbutton a{
+    text-decoration: none;
+    color: inherit;
+}
+.containerbutton h5{
+    margin: 0;
+    font-weight: lighter;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container1Info{
+        grid-row: 5/14;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info{
+        grid-row: 18/35;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info h4 {
+        font-size: 1.5em;
+        font-weight: lighter;
+    }
+    .container3Info{
+        grid-row: 13/15;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container3Info h1 {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    .container4 h5{
+        font-size: 1.2em;
+    }
+    .containerbutton{
+        grid-row: 45/48;
+        grid-column: 2/7;
+        color: white;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerbutton a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .containerbutton h5{
+        margin: 0;
+        font-weight: lighter;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container1Info{
+        grid-row: 6/14;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info{
+        grid-row: 18/47;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info h4 {
+        font-size: 1.5em;
+        font-weight: lighter;
+    }
+    .container3Info{
+        grid-row: 13/15;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container3Info h1 {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    .containerbutton{
+        grid-row: 43/46;
+        grid-column: 3/6;
+        color: white;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerbutton a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .containerbutton h5{
+        margin: 0;
+        font-weight: lighter;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container1Info{
+        grid-row: 6/14;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info{
+        grid-row: 19/40;
+        grid-column: 3/6;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info h4 {
+        font-size: 1.5em;
+        font-weight: lighter;
+    }
+    .container3Info{
+        grid-row: 13/15;
+        grid-column: 2/7;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container3Info h1 {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    .containerbutton{
+        grid-row: 45/48;
+        grid-column: 3/6;
+        color: white;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerbutton a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .containerbutton h5{
+        margin: 0;
+        font-weight: lighter;
+    }
+    .containerpic1 {
+
+    }
+    .containerpic2 {
+
+    }
+    .containerpic3 {
+
+    }
+    .containerpic4 {
+
+    }
+    .containerpic5 {
+
+    }
+    .containerpic6 {
+
+    }
+    .containerpic7 {
+
+    }
+   
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section1Info{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(28,1fr);
+        grid-template-rows: repeat(56,1fr);
+        grid-gap: 0;
+        -webkit-animation: fadein 3.5s;
+    }
+    .container1Info{
+        grid-row: 7/10;
+        grid-column: 2/11;
+        color: white;
+        justify-content: left;
+        text-align: left;
+        align-items: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info{
+        grid-row: 18/45;
+        grid-column: 2/13;
+        color: white;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .container2Info h4 {
+        font-size: 1.5em;
+        font-weight: lighter;
+    }
+    .container3Info h1 {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    .container3Info{
+        grid-row: 14/17;
+        grid-column: 2/7;
+        color: white;
+        justify-content: left;
+        text-align: left;
+        align-items: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .containerbutton{
+        grid-row: 47/50;
+        grid-column: 2/8;
+        color: white;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerbutton a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .containerbutton h5{
+        margin: 0;
+        font-weight: lighter;
+    }
+    .containerpic1{
+        grid-row: 8/20;
+        grid-column: 15/20;
+        background-color: green;
+    }
+    .containerpic2{
+        grid-row: 13/25;
+        grid-column: 19/23;
+        background-color: orange;
+    }
+    .containerpic3{
+        grid-row: 20/32;
+        grid-column: 16/20;
+        background-color: rgb(0, 255, 221);
+    }
+    .containerpic4{
+        grid-row: 25/40;
+        grid-column: 20/25;
+        background-color: blue;
+    }
+    .containerpic5{
+        grid-row: 32/48;
+        grid-column: 15/20;
+        background-color: red;
+    }
+    .containerpic6{
+        grid-row: 40/50;
+        grid-column: 20/26;
+        background-color: pink;
+    }
+    .containerpic7{
+        grid-row: 10/27;
+        grid-column: 23/27;
+        background-color: black;
+    }
+}

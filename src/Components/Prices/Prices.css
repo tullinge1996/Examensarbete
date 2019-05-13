@@ -1,0 +1,274 @@
+@media only screen and (max-width: 600px) {
+    .pricesection1{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        background-image: url("Gradient.png");
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(28,1fr);
+        grid-gap: 0;
+        height: 200vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pricetext{
+        grid-row: 2/6;
+        grid-column: 1/8;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricetext2{
+        grid-row: 4/5;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricecontainer1{
+    grid-row: 6/12;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer2{
+    grid-row: 14/20;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer3{
+    grid-row: 22/28;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .pricesection1{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(28,1fr);
+        grid-gap: 0;
+        height: 200vh;
+        background-image: url("Gradient.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pricetext{
+        grid-row: 2/6;
+        grid-column: 1/8;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricetext2{
+        grid-row: 4/5;
+        grid-column: 1/8;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricecontainer1{
+    grid-row: 6/12;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer2{
+    grid-row: 14/20;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer3{
+    grid-row: 22/28;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .pricesection1{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(28,1fr);
+        grid-gap: 0;
+        height: 200vh;
+        background-image: url("Gradient.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pricetext{
+        grid-row: 2/6;
+        grid-column: 1/8;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricetext2{
+        grid-row: 4/5;
+        grid-column: 1/8;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricecontainer1{
+    grid-row: 6/12;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer2{
+    grid-row: 14/20;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer3{
+    grid-row: 22/28;
+    grid-column: 2/7;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .pricesection1{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(28,1fr);
+        grid-template-rows: repeat(28,1fr);
+        grid-gap: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pricetext{
+        grid-row: 4/6;
+        grid-column: 10/20;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricetext2{
+        grid-row: 7/10;
+        grid-column: 10/20;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricecontainer1{
+    grid-row: 12/26;
+    grid-column: 2/10;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer2{
+    grid-row: 12/26;
+    grid-column: 11/19;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer3{
+    grid-row: 12/26;
+    grid-column: 20/28;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .pricesection1{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(28,1fr);
+        grid-template-rows: repeat(28,1fr);
+        grid-gap: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pricetext{
+        grid-row: 4/6;
+        grid-column: 10/20;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricetext2{
+        grid-row: 7/8;
+        grid-column: 10/20;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        font-size: 1.5em;
+        font-weight: lighter;
+        -webkit-animation: fadein 3.5s;
+    }
+    .pricecontainer1{
+    grid-row: 12/26;
+    grid-column: 2/10;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer2{
+    grid-row: 12/26;
+    grid-column: 11/19;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+.pricecontainer3{
+    grid-row: 12/26;
+    grid-column: 20/28;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fadein 3.5s;
+}
+}

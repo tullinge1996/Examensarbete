@@ -1,3 +1,4 @@
+
 .section1x{
     color:rgb(255,255,255);
 }
@@ -11,13 +12,12 @@
     text-decoration: none;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section1x {
-        grid-column: 1/8;
-        grid-row: 1/2;
-      }
+    .navbar{
+     background: rgba(0, 0, 0, 0.2);
+        padding: 0;
+    }
       .navbarOptions li{
         display: block;
         font-size: 1.2em;
@@ -26,15 +26,26 @@
         cursor: pointer;
     }
     .navbar-brand{
-        padding-left: 0;
+        padding-left: 15px;
     }
     .navbarOptions{
-        padding-left:0;
+        padding-left:15px;
+        padding-bottom: 10px;
     }
+    .navbar-toggler{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x {
         grid-column: 1/8;
         grid-row: 1/2;
@@ -56,6 +67,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x{
         color:rgb(255,255,255);
     }
@@ -82,6 +97,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x{
         color:rgb(255,255,255);
     }
@@ -108,6 +127,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x{
         color:rgb(255,255,255);
     }
@@ -133,6 +156,10 @@
 }
 /* Extra large devices (large laptops and desktops, 1400px and up) */
 @media only screen and (min-width: 1400px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x{
         color:rgb(255,255,255);
     }
@@ -158,6 +185,10 @@
 }
 /* Extra large devices (large laptops and desktops, 1680px and up) */
 @media only screen and (min-width: 1680px) {
+    .navbar{
+        background: rgba(0, 0, 0, 0.2);
+           
+       }
     .section1x{
         color:rgb(255,255,255);
     }
