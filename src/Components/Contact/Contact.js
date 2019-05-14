@@ -21,7 +21,7 @@ class Contact extends Component {
           <Input type="Email" name="Email" id="examplePassword" placeholder="Email" required/>
         </FormGroup>
         <FormGroup>
-          <Label  className="textarea" for="exampleText">Text Area</Label>
+          <Label  className="textarea" for="exampleText">Meddelande</Label>
           <Input  type="textarea" name="text" id="exampleText" />
         </FormGroup>
         <Button type="submit" className ="contactbutton">Submit</Button>
