@@ -17,9 +17,11 @@ const firebaseConfig = {
   //Reference messages collection
 
   let messagesRef = firebase.database().ref("messages");
-
-window.onload=function(){
-     document.getElementById("contactForm").addEventListener("submit", submitForm);
+  window.onload=function(){
+    let el = document.getElementById("contactForm");
+    if(el){
+        el.addEventListener("submit", submitForm);
+      }
   }
 
 function submitForm (e){
