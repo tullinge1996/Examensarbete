@@ -109,6 +109,9 @@
     text-decoration: none;
     color: inherit;
 }
+.container6{
+    display:none;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -200,6 +203,9 @@
         text-decoration: none;
         color: inherit;
     }
+    .container6{
+        display:none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -274,22 +280,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .container4 h5{
-        font-size: 1.5em;
-        margin: 0;
-    }
-    .container5 h5{
-        font-size: 1.5em;
-        margin: 0;
-    }
-    .container4 a{
-        text-decoration: none;
-        color: inherit;
-    }
-    .container5 a{
-        text-decoration: none;
-        color: inherit;
     }
 }
 
@@ -381,6 +371,9 @@
     .container5 a{
         text-decoration: none;
         color: inherit;
+    }
+    .container6{
+        display:none;
     }
 }
 
@@ -489,6 +482,12 @@
     .container6{
         grid-row: 8/50;
         grid-column: 16/28;
-        background-image: url("http://via.placeholder.com/640x360");
+        display: unset;
+    }
+    .animatedImage{
+        object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
     }
 }

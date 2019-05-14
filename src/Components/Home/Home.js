@@ -33,7 +33,7 @@ class Home extends Component {
                     <NavLink to="/Contact"><h5>Kontakta oss</h5></NavLink>
                  </div>
                  <div className="container6">
-                    
+                    <img className="animatedImage" src="https://useroom.com/wp-content/uploads/2017/05/website_wordpress_animation.gif" alt="Animated Computer gif"></img>
                  </div>
             </div>
         );
