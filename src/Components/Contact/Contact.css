@@ -2,21 +2,21 @@
     .contactcontainer{
         display: grid;
             grid-row: 1/7;
-            grid-column: 1/8;
+            grid-column: 1/7;
+            height: 93vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             
     }
-    .contacttext{
-    grid-row: 3/6;
-    grid-column: 1/8;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 7/20;
+        grid-row: 8/20;
         grid-column: 2/7;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -30,58 +30,74 @@
     .textarea{
         color:white;
     }
-    #exampleText{
-        height: 170px;
-    }
     .contactbutton{
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         width: 8em;
-        
+        margin-top: 30px;
     }
-    .alert{
-        grid-row: 26/28;
-        grid-column: 2/7;
+    .contacttext{
+        grid-row: 4/6;
+        grid-column: 3/6;
         text-align: center;
-        background:#79c879;
-        color:#fff;
-        display: none;
-        margin: 0;
-        vertical-align:middle;
-      }
-      .alert p{
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
-      }
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 25/27;
+        grid-column: 2/7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 25/27;
+        grid-column: 2/7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 25/27;
+        grid-column: 2/7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .contactcontainer{
         display: grid;
             grid-row: 1/7;
-            grid-column: 1/8;
+            grid-column: 1/7;
+            height: 93vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             
     }
-    .contacttext{
-    grid-row: 3/6;
-    grid-column: 1/8;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/21;
-        grid-column: 2/7;
+        grid-row: 8/20;
+        grid-column: 3/6;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -94,38 +110,52 @@
     .textarea{
         color:white;
     }
-    #exampleText{
-        height: 170px;
-    }
     .contactbutton{
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         width: 8em;
-        
+        margin-top: 30px;
     }
-    .alert{
-        grid-row: 24/26;
-        grid-column: 2/7;
+    .contacttext{
+        grid-row: 4/6;
+        grid-column: 3/6;
         text-align: center;
-        vertical-align:middle;
-        background:#79c879;
-        color:#fff;
-        display: none;
-        margin: 0;
-      }
-      .alert p {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        font-size: 1.2em;
-      }
-
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -133,20 +163,20 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
+            height: 93vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             
     }
-    .contacttext{
-    grid-row: 3/6;
-    grid-column: 1/8;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/21;
+        grid-row: 8/20;
         grid-column: 3/6;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -160,37 +190,52 @@
     .textarea{
         color:white;
     }
-    #exampleText{
-        height: 170px;
-    }
     .contactbutton{
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         width: 8em;
-        
+        margin-top: 30px;
     }
-    .alert{
-        grid-row: 24/26;
+    .contacttext{
+        grid-row: 4/6;
         grid-column: 3/6;
         text-align: center;
-        vertical-align:middle;
-        background:#79c879;
-        color:#fff;
-        display: none;
-        margin: 0;
-      }
-      .alert p {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        font-size: 1.2em;
-      }
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -198,20 +243,20 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
+            height: 93vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             
     }
-    .contacttext{
-    grid-row: 3/6;
-    grid-column: 1/8;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/21;
+        grid-row: 8/20;
         grid-column: 3/6;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -225,37 +270,52 @@
     .textarea{
         color:white;
     }
-    #exampleText{
-        height: 170px;
-    }
     .contactbutton{
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         width: 8em;
-        
+        margin-top: 30px;
     }
-    .alert{
-        grid-row: 24/26;
+    .contacttext{
+        grid-row: 4/6;
         grid-column: 3/6;
         text-align: center;
-        vertical-align:middle;
-        background:#79c879;
-        color:#fff;
-        display: none;
-        margin: 0;
-      }
-      .alert p {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%);
-            font-size: 1.2em;
-      }
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -263,20 +323,20 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
+            height: 93vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             
     }
-    .contacttext{
-    grid-row: 3/6;
-    grid-column: 1/8;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/21;
+        grid-row: 8/20;
         grid-column: 3/6;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -290,36 +350,50 @@
     .textarea{
         color:white;
     }
-    #exampleText{
-        height: 170px;
-    }
     .contactbutton{
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         width: 8em;
-        
+        margin-top: 30px;
     }
-    .alert{
-        grid-row: 24/26;
+    .contacttext{
+        grid-row: 4/6;
         grid-column: 3/6;
         text-align: center;
-        vertical-align:middle;
-        background:#79c879;
-        color:#fff;
-        display: none;
-        margin: 0;
-      }
-      .alert p {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        font-size: 1.2em;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
     }
-      
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 25/27;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
