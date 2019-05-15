@@ -55,24 +55,24 @@ class Contact extends Component {
     render() {
         return (
           <div className ="contactcontainer">
-          <h1 className ="contacttext">Kontakt</h1>
+          <h1 className ="contacttext animated fadeInDown">Kontakt</h1>
         {this.state.alert && <div className={`alert alert-${this.state.alertData.type}`} role='alert'>
           <div className='container'>
             {this.state.alertData.message}
           </div>
         </div>}
-            <div className ="contactcontainer2">
+            <div className ="contactcontainer2 animated fadeInLeft">
             <form onSubmit={this.sendMessage.bind(this)} ref='contactForm' id ="contactForm">
           <FormGroup>
-          <label className="emailtext" for="exampleEmail">Namn</label><br></br>
+          <label className="emailtext" htmlFor="exampleEmail">Namn</label><br></br>
           <input type="Name" name="Name" id="exampleEmail" placeholder="Name" ref={name => this.inputName = name} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <label className="passwordtext" for="examplePassword">Email</label><br></br>
+          <label className="passwordtext" htmlFor="examplePassword">Email</label><br></br>
           <input type="Email" name="Email" id="examplePassword" placeholder="Email" ref={email => this.inputEmail = email} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <label  className="textarea" for="exampleText">Meddelande</label>
+          <label  className="textarea" htmlFor="exampleText">Meddelande</label>
           <textarea type="textarea" name="text" className='form-control' id='exampleText' rows='7' ref={message => this.textAreaMessage = message}></textarea>
         </FormGroup>
         <Button type="submit" className ="contactbutton">Skicka</Button>

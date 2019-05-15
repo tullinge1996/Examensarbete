@@ -226,6 +226,7 @@
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
         height: 93vh;
+        background-image: none;
         background-repeat: no-repeat;
         background-size: cover;
     }

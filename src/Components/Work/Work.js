@@ -7,7 +7,7 @@ export default class Work extends React.Component {
   render() {
     return (
         <div className ="slideshow1">
-        <h1 className ="slideshowtext">Några av våra tidigare arbeten</h1>
+        <h1 className ="slideshowtext animated fadeInLeft">Några av våra tidigare arbeten</h1>
       <CarouselProvider className ="slideshow2"
         naturalSlideWidth={100}
         naturalSlideHeight={100}
@@ -21,10 +21,10 @@ export default class Work extends React.Component {
         <ButtonBack className="button1">Back</ButtonBack>
         <ButtonNext className="button2">Next</ButtonNext>
       </CarouselProvider>
-      <div className="workcontainer1"></div>
-      <div className="workcontainer2"></div>
-      <div className="workcontainer3"></div>
-      <div className="workcontainer4"></div>
+      <div className="workcontainer1 animated fadeInLeft delay-1s "></div>
+      <div className="workcontainer2 animated fadeInLeft delay-3s"></div>
+      <div className="workcontainer3 animated fadeInRight delay-4s"></div>
+      <div className="workcontainer4 animated fadeInRight delay-2s"></div>
       </div>
     );
   }

@@ -7,10 +7,10 @@ import { Card, CardImg, CardText, CardBody,
   class Prices extends Component {
     render() {
         return (
-          <div className ="pricesection1">
-          <h1 className ="pricetext">Alla våra priser</h1>
+          <div className ="pricesection1 animated bounceInLeft">
+          <h1 className ="pricetext ">Alla våra priser</h1>
           <h4 className ="pricetext2">Hitta det paket som passar just dig och dina behov</h4>
-          <Card className="pricecontainer1">
+          <Card className="pricecontainer1 ">
             <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33txt=318%C3%97180w=318h=180" alt="Card image cap" />
             <CardBody>
               <CardTitle>Card title</CardTitle>
