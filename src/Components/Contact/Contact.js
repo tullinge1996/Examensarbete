@@ -83,7 +83,7 @@ class Contact extends Component {
         <div className="contactcontainer3 animated fadeInRight">
         <img className ="profilepic" src={profilePic} alt="Logo" />
         <h5>Namn: Carl Brunngård</h5>
-        <h5>Email: ttp_96@hotmail.com</h5>
+        <h5>Email: carl.brunngard@student.kyh.se</h5>
         <h5>Tel: 076-852-4567</h5>
         <h5>Adress: Månskensvägen 32</h5>
         <h5>Stad: Stockholm</h5>
