@@ -3,23 +3,27 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 93vh;
+            height: 230vh;
             grid-template-columns: repeat(7,1fr);
-            grid-template-rows: repeat(28,1fr);
+            grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
+            background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Gradient.png");
             
     }
     .contactcontainer{
         grid-row: 1/11;
         grid-column: 1/6;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
     }
     .contactcontainer2{
-        grid-row: 8/20;
+        grid-row: 15/26;
         grid-column: 2/7;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        
     }
     .emailtext{
         color:white;
@@ -36,10 +40,10 @@
         box-sizing: border-box;
         border-radius: 50px;
         width: 8em;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     .contacttext{
-        grid-row: 4/6;
+        grid-row: 3/5;
         grid-column: 3/6;
         text-align: center;
         color: white;
@@ -56,26 +60,56 @@
         border-radius: 5px;
     }
     div.alert.alert-success{
-        grid-row: 25/27;
+        grid-row: 30/32;
         grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-warning{
-        grid-row: 25/27;
+        grid-row: 30/32;
         grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-danger{
-        grid-row: 25/27;
+        grid-row: 30/32;
         grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 32/50;
+        grid-column: 1/8;
+        margin:0;
+        padding: 16px;
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 6/12;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -83,23 +117,27 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 93vh;
+            height: 230vh;
             grid-template-columns: repeat(7,1fr);
-            grid-template-rows: repeat(28,1fr);
+            grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
+            background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Gradient.png");
             
     }
     .contactcontainer{
         grid-row: 1/11;
         grid-column: 1/6;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
     }
     .contactcontainer2{
-        grid-row: 8/20;
-        grid-column: 3/6;
+        grid-row: 15/26;
+        grid-column: 2/7;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        
     }
     .emailtext{
         color:white;
@@ -116,10 +154,10 @@
         box-sizing: border-box;
         border-radius: 50px;
         width: 8em;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     .contacttext{
-        grid-row: 4/6;
+        grid-row: 3/5;
         grid-column: 3/6;
         text-align: center;
         color: white;
@@ -136,26 +174,56 @@
         border-radius: 5px;
     }
     div.alert.alert-success{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-warning{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-danger{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 32/50;
+        grid-column: 1/8;
+        margin:0;
+        padding: 16px;
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 8/15;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -163,23 +231,27 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 93vh;
+            height: 230vh;
             grid-template-columns: repeat(7,1fr);
-            grid-template-rows: repeat(28,1fr);
+            grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
+            background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Gradient.png");
             
     }
     .contactcontainer{
         grid-row: 1/11;
         grid-column: 1/6;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
     }
     .contactcontainer2{
-        grid-row: 8/20;
-        grid-column: 3/6;
+        grid-row: 15/26;
+        grid-column: 2/7;
         text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        
     }
     .emailtext{
         color:white;
@@ -196,10 +268,10 @@
         box-sizing: border-box;
         border-radius: 50px;
         width: 8em;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     .contacttext{
-        grid-row: 4/6;
+        grid-row: 3/5;
         grid-column: 3/6;
         text-align: center;
         color: white;
@@ -216,26 +288,56 @@
         border-radius: 5px;
     }
     div.alert.alert-success{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-warning{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-danger{
-        grid-row: 25/27;
-        grid-column: 3/6;
+        grid-row: 28/30;
+        grid-column: 2/7;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 32/50;
+        grid-column: 1/8;
+        margin:0;
+        padding: 16px;
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 8/15;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -243,10 +345,11 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 93vh;
+            height: 100vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
+            overflow: hidden;
             
     }
     .contactcontainer{
@@ -256,10 +359,13 @@
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/20;
-        grid-column: 3/6;
+        grid-row: 12/27;
+        grid-column: 2/4;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: rgb(91, 53, 183,0.3);
+        border-radius: 15px;
+        
     }
     .emailtext{
         color:white;
@@ -276,7 +382,7 @@
         box-sizing: border-box;
         border-radius: 50px;
         width: 8em;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     .contacttext{
         grid-row: 4/6;
@@ -296,26 +402,57 @@
         border-radius: 5px;
     }
     div.alert.alert-success{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-warning{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-danger{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 12/27;
+        grid-column: 5/7;
+        margin:0;
+        padding: 16px;
+        background: rgb(173, 24, 71,0.3);
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 7/9;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -327,6 +464,7 @@
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
+            overflow: hidden;
             
     }
     .contactcontainer{
@@ -336,10 +474,13 @@
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .contactcontainer2{
-        grid-row: 8/20;
-        grid-column: 3/6;
+        grid-row: 11/28;
+        grid-column: 2/4;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: rgb(91, 53, 183,0.3);
+        border-radius: 15px;
+        
     }
     .emailtext{
         color:white;
@@ -356,7 +497,7 @@
         box-sizing: border-box;
         border-radius: 50px;
         width: 8em;
-        margin-top: 30px;
+        margin-top: 1px;
     }
     .contacttext{
         grid-row: 4/6;
@@ -376,24 +517,168 @@
         border-radius: 5px;
     }
     div.alert.alert-success{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-warning{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     div.alert.alert-danger{
-        grid-row: 25/27;
+        grid-row: 2/4;
         grid-column: 3/6;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 11/28;
+        grid-column: 5/7;
+        margin:0;
+        padding: 16px;
+        background: rgb(173, 24, 71,0.3);
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 7/9;
+        grid-column: 2/7;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+}
+@media only screen and (min-width: 1400px) {
+    .contactcontainer{
+        display: grid;
+            grid-row: 1/7;
+            grid-column: 1/7;
+            height: 93vh;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(28,1fr);
+            -webkit-animation: fadein 3.5s;
+            
+    }
+    .contactcontainer{
+        grid-row: 1/11;
+        grid-column: 1/6;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .contactcontainer2{
+        grid-row: 12/28;
+        grid-column: 2/4;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: rgb(91, 53, 183,0.3);
+        border-radius: 15px;
+        
+    }
+    .emailtext{
+        color:white;
+    }
+    .passwordtext{
+        color:white;
+    }
+    .textarea{
+        color:white;
+    }
+    .contactbutton{
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 50px;
+        width: 8em;
+        margin-top: 15px;
+    }
+    .contacttext{
+        grid-row: 4/6;
+        grid-column: 3/6;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
+    .container2{
+        padding-top: 40px; 
+        text-align: center;
+    }
+    #exampleEmail{
+        border-radius: 5px;
+    }
+    #examplePassword{
+        border-radius: 5px;
+    }
+    div.alert.alert-success{
+        grid-row: 2/4;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-warning{
+        grid-row: 2/4;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.alert.alert-danger{
+        grid-row: 2/4;
+        grid-column: 3/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contactForm{
+        padding: 16px;
+    }
+    .contactcontainer3{
+        grid-row: 12/28;
+        grid-column: 5/7;
+        margin:0;
+        padding: 16px;
+        background: rgb(173, 24, 71,0.3);
+        border-radius: 15px;
+    }
+    .contactcontainer3 h5 {
+        color: white;
+        text-align: center;
+    }
+    #exampleText.form-control{
+        resize: none;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .contacttext2{
+        grid-row: 7/9;
+        grid-column: 3/6;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        }
 }

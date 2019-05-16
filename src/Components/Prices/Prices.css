@@ -3,13 +3,13 @@
         display: grid;
         grid-row: 1/7;
         grid-column: 1/8;
-        background-image: url("Gradient.png");
         grid-template-columns: repeat(7,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
         height: 200vh;
         background-repeat: no-repeat;
         background-size: cover;
+        background-image: url("Gradient.png");
     }
     .pricetext{
         grid-row: 2/6;

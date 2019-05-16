@@ -8,6 +8,7 @@ import {
   Nav,
 } from 'reactstrap';
 import { NavLink } from "react-router-dom";
+import logo from "./logo2.png";
 
 export default class Navbar1 extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ export default class Navbar1 extends React.Component {
   render() {
     return (
         <Navbar className="section1x" dark expand="md">
-          <NavbarBrand href="/">WCDE</NavbarBrand>
+          <NavbarBrand href="/"><img className ="logolayout" src={logo} alt="Logo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

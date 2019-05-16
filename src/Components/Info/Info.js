@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import './Info.css';
 import { NavLink } from "react-router-dom";
 import "animate.css";
+import logo from "./logofix.png";
+
 
 
 class Info extends Component {
     render() {
         return (
             <div className="section1Info">
-                <div className="container1Info animated bounceInLeft">
-                    <h1>Välkommen till WCDE</h1>
-                </div>
+                
                 <div className="container3Info animated bounceInLeft">
                     <h1>Om oss</h1>
                 </div>

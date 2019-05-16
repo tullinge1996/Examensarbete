@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import { NavLink } from "react-router-dom";
 import "animate.css";
+import logo from "./logofix.png";
 
 
 
@@ -10,7 +11,7 @@ class Home extends Component {
         return (
             <div className="section2">
                 <div className="container1 animated bounceInLeft">
-                    <h1>WCDE</h1>
+                <img className ="logolayouthome animated bounceInLeft" src={logo} alt="Logo" />
                  </div>
                 <div className="container2 animated bounceInLeft">
                     <h1>Sveriges 
