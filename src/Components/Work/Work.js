@@ -12,6 +12,7 @@ export default class Work extends React.Component {
     return (
         <div className ="slideshow1">
         <h1 className ="slideshowtext animated fadeInLeft">Några av våra tidigare arbeten</h1>
+        <h5 className ="slideshowtext2 animated fadeInLeft">Klicka på bilderna för att komma till respektive hemsida</h5>
       <CarouselProvider className ="slideshow2"
         naturalSlideWidth={100}
         naturalSlideHeight={80}
@@ -28,15 +29,19 @@ export default class Work extends React.Component {
       </CarouselProvider>
       <div className="workcontainer1 animated fadeInLeft delay-1s ">
       <img className="containerlogo1" src={logo} alt="Image of previous work"></img>
+      <div className="middle"><div className="text">Visa sida</div></div>
       </div>
       <div className="workcontainer2 animated fadeInLeft delay-3s">
-      <img className="containerlogo3" src={logo3} alt="Image of previous work"></img>
+      <img className="containerlogo2" src={logo3} alt="Image of previous work"></img>
+      <div className="middle"><div className="text">Visa sida</div></div>
       </div>
       <div className="workcontainer3 animated fadeInRight delay-4s">
-      <img className="containerlogo4" src={logo4} alt="Image of previous work"></img>
+      <img className="containerlogo3" src={logo4} alt="Image of previous work"></img>
+      <div className="middle"><div className="text">Visa sida</div></div>
       </div>
       <div className="workcontainer4 animated fadeInRight delay-2s">
-      <img className="containerlogo2" src={logo2} alt="Image of previous work"></img>
+      <img className="containerlogo4" src={logo2} alt="Image of previous work"></img>
+      <div className="middle"><div className="text">Visa sida</div></div>
       </div>
       </div>
     );
