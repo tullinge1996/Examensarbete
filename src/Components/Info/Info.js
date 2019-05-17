@@ -21,15 +21,18 @@ class Info extends Component {
                     <h1>Om oss</h1>
                 </div>
                 <div className="container2Info animated bounceInLeft">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Duis tristique consequat sollicitudin. Integer id dictum metus, sit amet varius erat. Aenean a lacus libero.
-                        Nunc libero erat, volutpat eu varius et, blandit in augue. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vulputate porta velit, a tempus erat gravida eget.
-                        Sed sed pulvinar libero, in porttitor orci. Nunc lorem justo, malesuada nec nibh sed, ultrices varius quam.</h4>
+                    <h4>CEDW startades av tre klasskamrater 2019 direkt efter att vi hade tagit vår examen inom Front-end utveckling.
+                        Vi alla var osäkra på vad vi ville göra direkt efter examen och beslöt därför att göra något tillsammans.
+                        <br></br><br></br>Vi kände att vi ville testa våra kunskaper ute i arbetslivet direkt och skapa något eget.
+                        Under vår utbildning så hade vi en kurs vid namn "Lärande i arbete" där vi fick arbeta på ett företag i 3 månader, detta
+                        gav oss en inblick hur det är att arbeta på ett IT-företag och vi kände att vi också har kompetensen till att göra något eget.
+                        <br></br><br></br>
+                        Vi har som mål att göra er vision till verklighet, det som vi skapar tillsammans ska vara orginellt,
+                         skräddarsytt efter era krav och hålla hög kvalité.
+                         <br></br><br></br>
+                         Vänligen klicka runt på sidan och kontakta oss under fliken "Kontakt" om ni känner att ni behöver några fler frågor besvarade.
+                    </h4>
                 </div>
-                <div className="containerbutton animated bounceInLeft delay-1s">
-                    <NavLink to="/Prices"><h5>Klicka här för mer info</h5></NavLink>
-                 </div>
                  <div className="containerpic1 animated fadeInDown delay-1s">
                  <img className="officeimage" src={logo7} alt="Animated Office image"></img>
                    </div>

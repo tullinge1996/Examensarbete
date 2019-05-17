@@ -23,11 +23,11 @@ class Home extends Component {
                     <h4>Snabbt, billigt och bra</h4>
                  </div>
                  <div className="container35 animated bounceInLeft">
-                    <h4>vitae felis suscipit pulvinar nec ut ligula. Vivamus nisi nunc, dictum nec imperdiet et, hendrerit at quam.
-                        Etiam eleifend odio in luctus aliquet. Sed ultricies lectus at dapibus consequat.
-                        Cras ante nibh, scelerisque at sollicitudin a, mattis ut neque.
-                        Praesent vesti mattis bibendum, sapien erat euismod mi, eget vehicula tellus ligula nec odio.
-                        Cras eu auctor massa Cras ante nibh, scelerisque at.</h4>
+                    <h4>CEDW är en nystartad liten Webbyrå i Stockholm som består av ett par nyexaminerade studenter.
+                        Vi levererar väldesignade, stabila och sökoptimerade hemsidor till företag och privatpersoner.
+                         Vi arbetar främst med Wordpress och React och kan skapa  unika designer för just ditt företag.
+                         Vi har som mål att göra din vision till verklighet, det som vi skapar tillsammans ska vara orginellt, skräddarsytt efter era krav och hålla hög kvalité.
+                         </h4>
                  </div>
                  <div className="container4 animated bounceInLeft delay-1s">
                     <NavLink to="/Prices"><h5>Klicka här för prislista</h5></NavLink>
