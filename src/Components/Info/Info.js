@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 import './Info.css';
 import { NavLink } from "react-router-dom";
 import "animate.css";
-import logo from "./logofix.png";
+import logo1 from "./office1.jpg";
+import logo2 from "./office2.jpg";
+import logo3 from "./office3.jpg";
+import logo4 from "./office4.jpg";
+import logo5 from "./office5.jpg";
+import logo6 from "./office6.jpg";
+import logo7 from "./office7.jpg";
 
 
 
@@ -25,25 +31,25 @@ class Info extends Component {
                     <NavLink to="/Prices"><h5>Klicka här för mer info</h5></NavLink>
                  </div>
                  <div className="containerpic1 animated fadeInDown delay-1s">
-                   
+                 <img className="officeimage" src={logo7} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic2 animated fadeInDown delay-1s">
-                      
+                   <img className="officeimage" src={logo2} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic3 animated fadeInLeft delay-1s">
-                      
+                   <img className="officeimage" src={logo3} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic4 animated fadeInRight delay-1s">
-                      
+                   <img className="officeimage" src={logo4} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic5 animated fadeInUp delay-1s">
-                      
+                   <img className="officeimage" src={logo5} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic6 animated fadeInUp delay-1s">
-                      
+                   <img className="officeimage" src={logo1} alt="Animated Office image"></img>
                    </div>
                    <div className="containerpic7 animated fadeInRight delay-1s">
-                      
+                   <img className="officeimage" src={logo6} alt="Animated Office image"></img>
                    </div>
             </div>
         );

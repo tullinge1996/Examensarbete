@@ -60,6 +60,41 @@
     margin: 0;
     font-weight: lighter;
 }
+.containerpic1{
+    grid-row: 6/20;
+    grid-column: 15/20;
+    display:none;
+}
+.containerpic2{
+    grid-row: 13/25;
+    grid-column: 19/23;
+    display:none;
+}
+.containerpic3{
+    grid-row: 20/32;
+    grid-column: 16/20;
+    display:none;
+}
+.containerpic4{
+    grid-row: 25/40;
+    grid-column: 20/25;
+    display:none;
+}
+.containerpic5{
+    grid-row: 32/48;
+    grid-column: 14/20;
+    display:none;
+}
+.containerpic6{
+    grid-row: 39/53;
+    grid-column: 20/26;
+    display:none;
+}
+.containerpic7{
+    grid-row: 10/27;
+    grid-column: 23/28;
+    display:none;
+}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -116,6 +151,41 @@
         margin: 0;
         font-weight: lighter;
     }
+    .containerpic1{
+        grid-row: 6/20;
+        grid-column: 15/20;
+        display:none;
+    }
+    .containerpic2{
+        grid-row: 13/25;
+        grid-column: 19/23;
+        display:none;
+    }
+    .containerpic3{
+        grid-row: 20/32;
+        grid-column: 16/20;
+        display:none;
+    }
+    .containerpic4{
+        grid-row: 25/40;
+        grid-column: 20/25;
+        display:none;
+    }
+    .containerpic5{
+        grid-row: 32/48;
+        grid-column: 14/20;
+        display:none;
+    }
+    .containerpic6{
+        grid-row: 39/53;
+        grid-column: 20/26;
+        display:none;
+    }
+    .containerpic7{
+        grid-row: 10/27;
+        grid-column: 23/28;
+        display:none;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -168,6 +238,41 @@
     .containerbutton h5{
         margin: 0;
         font-weight: lighter;
+    }
+    .containerpic1{
+        grid-row: 6/20;
+        grid-column: 15/20;
+        display:none;
+    }
+    .containerpic2{
+        grid-row: 13/25;
+        grid-column: 19/23;
+        display:none;
+    }
+    .containerpic3{
+        grid-row: 20/32;
+        grid-column: 16/20;
+        display:none;
+    }
+    .containerpic4{
+        grid-row: 25/40;
+        grid-column: 20/25;
+        display:none;
+    }
+    .containerpic5{
+        grid-row: 32/48;
+        grid-column: 14/20;
+        display:none;
+    }
+    .containerpic6{
+        grid-row: 39/53;
+        grid-column: 20/26;
+        display:none;
+    }
+    .containerpic7{
+        grid-row: 10/27;
+        grid-column: 23/28;
+        display:none;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -222,7 +327,41 @@
         margin: 0;
         font-weight: lighter;
     }
-   
+    .containerpic1{
+        grid-row: 6/20;
+        grid-column: 15/20;
+        display:none;
+    }
+    .containerpic2{
+        grid-row: 13/25;
+        grid-column: 19/23;
+        display:none;
+    }
+    .containerpic3{
+        grid-row: 20/32;
+        grid-column: 16/20;
+        display:none;
+    }
+    .containerpic4{
+        grid-row: 25/40;
+        grid-column: 20/25;
+        display:none;
+    }
+    .containerpic5{
+        grid-row: 32/48;
+        grid-column: 14/20;
+        display:none;
+    }
+    .containerpic6{
+        grid-row: 39/53;
+        grid-column: 20/26;
+        display:none;
+    }
+    .containerpic7{
+        grid-row: 10/27;
+        grid-column: 23/28;
+        display:none;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -282,38 +421,43 @@
         font-weight: lighter;
     }
     .containerpic1{
-        grid-row: 8/20;
+        grid-row: 6/20;
         grid-column: 15/20;
-        background-color: green;
+        display:unset;
+    }
+    .officeimage{
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
     }
     .containerpic2{
         grid-row: 13/25;
         grid-column: 19/23;
-        background-color: orange;
+        display:unset;
     }
     .containerpic3{
         grid-row: 20/32;
         grid-column: 16/20;
-        background-color: rgb(0, 255, 221);
+        display:unset;
     }
     .containerpic4{
         grid-row: 25/40;
         grid-column: 20/25;
-        background-color: blue;
+        display:unset;
     }
     .containerpic5{
         grid-row: 32/48;
-        grid-column: 15/20;
-        background-color: red;
+        grid-column: 14/20;
+        display:unset;
     }
     .containerpic6{
-        grid-row: 40/50;
+        grid-row: 39/53;
         grid-column: 20/26;
-        background-color: pink;
+        display:unset;
     }
     .containerpic7{
         grid-row: 10/27;
-        grid-column: 23/27;
-        background-color: black;
+        grid-column: 23/28;
+        display:unset;
     }
 }
