@@ -560,13 +560,14 @@
     .contactcontainer3 h5 {
         color: white;
         text-align: center;
+        font-size: 1em;
     }
     #exampleText.form-control{
         resize: none;
     }
     .profilepic{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 100px;
         margin-bottom: 30px;
         border: 2px solid white;

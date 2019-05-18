@@ -547,7 +547,7 @@
         font-size: 3.5em;
     }
     .container3{
-        grid-row: 19/23;
+        grid-row: 20/23;
         grid-column: 2/18;
         display: flex;
         justify-content: left;

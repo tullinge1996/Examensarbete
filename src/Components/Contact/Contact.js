@@ -80,7 +80,7 @@ class Contact extends Component {
         </FormGroup>
         <FormGroup>
           <label  className="textarea" htmlFor="exampleText">Meddelande</label>
-          <textarea type="textarea" name="text" className='form-control' id='exampleText' rows='7' ref={message => this.textAreaMessage = message}></textarea>
+          <textarea type="textarea" name="text" className='form-control' id='exampleText' rows='4' ref={message => this.textAreaMessage = message}></textarea>
         </FormGroup>
         <Button type="submit" className ="contactbutton">Skicka</Button>
             </form>
