@@ -62,7 +62,7 @@ class Contact extends Component {
           </Helmet>
           <div className ="contactcontainer">
           <h1 className ="contacttext animated fadeInDown">Kontakt</h1>
-          <h3 className ="contacttext2 animated fadeInDown">Här nedan kan du hitta information om mig eller fylla i formuläret för att komma i kontakt med mig så snabbt som möjligt.</h3>
+          <h5 className ="contacttext2 animated fadeInDown">Här nedan kan du hitta information om mig eller fylla i formuläret för att komma i kontakt med mig så snabbt som möjligt.</h5>
         {this.state.alert && <div className={`alert alert-${this.state.alertData.type}`} role='alert'>
           <div className='container'>
             {this.state.alertData.message}

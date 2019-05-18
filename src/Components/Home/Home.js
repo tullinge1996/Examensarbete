@@ -16,6 +16,7 @@ class Home extends Component {
          <meta name="description" content="Välkommen till CEDWebb, en Webbyrå som levererar hemsidor till ett billigt pris" charSet="utf-8" />
          </Helmet>
            <div className="section2">
+              <div className="section3">
                <div className="container1 animated bounceInLeft">
                <img className ="logolayouthome animated bounceInLeft" src={logo} alt="Bild på företagslogga" />
                 </div>
@@ -41,7 +42,8 @@ class Home extends Component {
                 <div className="container5 animated bounceInLeft delay-1s">
                    <NavLink to="/Contact"><h5>Kontakta oss</h5></NavLink>
                 </div>
-                <div className="container6 animated">
+                </div>
+                <div className="container6 animated bounceInRight">
                    <img className="animatedImage" src={logo2} alt="Animerat bildspel på olika enheter"></img>
                 </div>
            </div>

@@ -28,7 +28,7 @@
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-    grid-row: 6/12;
+    grid-row: 6/13;
     grid-column: 2/7;
     text-align: center;
     color: white;
@@ -39,9 +39,10 @@
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
+    position: fixed;
 }
 .pricecontainer2{
-    grid-row: 14/20;
+    grid-row: 14/21;
     grid-column: 2/7;
     text-align: center;
     color: white;
@@ -52,9 +53,10 @@
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
+    position: fixed;
 }
 .pricecontainer3{
-    grid-row: 22/28;
+    grid-row: 22/29;
     grid-column: 2/7;
     text-align: center;
     color: white;
@@ -65,10 +67,11 @@
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
+    position: fixed;
 }
 .cardImage3 {
-    margin-top: 3%;
-    width: 60%;
+    padding-top: 20px;
+    width: 70%;
 }
 .titletext{
     font-size: 2em;
@@ -104,7 +107,7 @@
         display: grid;
         grid-row: 1/7;
         grid-column: 1/8;
-        grid-template-columns: repeat(7,1fr);
+        grid-template-columns: repeat(14,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
         height: 200vh;
@@ -113,24 +116,29 @@
         background-size: cover;
     }
     .pricetext{
-        grid-row: 2/6;
-        grid-column: 1/8;
-        text-align: center;
+        grid-row: 2/3;
+        grid-column: 3/13;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
     }
     .pricetext2{
-        grid-row: 4/5;
-        grid-column: 1/8;
+        grid-row: 3/5;
+        grid-column: 3/13;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-    grid-row: 6/12;
-    grid-column: 2/7;
+    grid-row: 5/12;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -142,8 +150,8 @@
     border: 2px solid white;
 }
 .pricecontainer2{
-    grid-row: 14/20;
-    grid-column: 2/7;
+    grid-row: 13/20;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -155,8 +163,8 @@
     border: 2px solid white;
 }
 .pricecontainer3{
-    grid-row: 22/28;
-    grid-column: 2/7;
+    grid-row: 21/28;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -168,8 +176,8 @@
     border: 2px solid white;
 }
 .cardImage3 {
-    margin-top: 3%;
-    width: 60%;
+    margin-top: 10%;
+    width: 80%;
 }
 .titletext{
     font-size: 2em;
@@ -181,8 +189,8 @@
     text-align: center;
 }
 .cardbutton{
-    margin-top: 70px;
-    width: 80%;
+    margin-top: 25px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
@@ -204,7 +212,7 @@
         display: grid;
         grid-row: 1/7;
         grid-column: 1/8;
-        grid-template-columns: repeat(7,1fr);
+        grid-template-columns: repeat(14,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
         height: 200vh;
@@ -213,24 +221,29 @@
         background-size: cover;
     }
     .pricetext{
-        grid-row: 2/6;
-        grid-column: 1/8;
-        text-align: center;
+        grid-row: 2/3;
+        grid-column: 3/13;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
     }
     .pricetext2{
-        grid-row: 4/5;
-        grid-column: 1/8;
+        grid-row: 3/5;
+        grid-column: 3/13;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-    grid-row: 6/12;
-    grid-column: 3/6;
+    grid-row: 5/12;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -242,8 +255,8 @@
     border: 2px solid white;
 }
 .pricecontainer2{
-    grid-row: 14/20;
-    grid-column: 3/6;
+    grid-row: 13/20;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -255,8 +268,8 @@
     border: 2px solid white;
 }
 .pricecontainer3{
-    grid-row: 22/28;
-    grid-column: 3/6;
+    grid-row: 21/28;
+    grid-column: 5/11;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -268,8 +281,8 @@
     border: 2px solid white;
 }
 .cardImage3 {
-    margin-top: 3%;
-    width: 60%;
+    margin-top: 10%;
+    width: 80%;
 }
 .titletext{
     font-size: 2em;
@@ -281,8 +294,8 @@
     text-align: center;
 }
 .cardbutton{
-    margin-top: 70px;
-    width: 80%;
+    margin-top: 25px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
@@ -369,7 +382,7 @@
     }
     .cardImage3 {
         margin-top: 15%;
-        width: 60%;
+        width: 80%;
     }
     .titletext{
         font-size: 2em;
@@ -381,7 +394,7 @@
         text-align: center;
     }
     .cardbutton{
-        margin-top: 70px;
+        margin-top: 20px;
         width: 100%;
         background-color: rgba(0, 0, 0, 0);
             border: 1px solid #FFFFFF;
@@ -432,7 +445,7 @@
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-    grid-row: 12/26;
+    grid-row: 11/26;
     grid-column: 2/10;
     text-align: center;
     color: white;
@@ -445,7 +458,7 @@
     border: 2px solid white;
 }
 .pricecontainer2{
-    grid-row: 12/26;
+    grid-row: 11/26;
     grid-column: 11/19;
     text-align: center;
     color: white;
@@ -458,7 +471,7 @@
     border: 2px solid white;
 }
 .pricecontainer3{
-    grid-row: 12/26;
+    grid-row: 11/26;
     grid-column: 20/28;
     text-align: center;
     color: white;
@@ -471,8 +484,8 @@
     border: 2px solid white;
 }
 .cardImage3 {
-    margin-top: 3%;
-    width: 60%;
+    margin-top: 9%;
+    width: 80%;
 }
 .titletext{
     font-size: 2em;
@@ -484,7 +497,7 @@
     text-align: center;
 }
 .cardbutton{
-    margin-top: 70px;
+    margin-top:30px;
     width: 80%;
     background-color: rgba(0, 0, 0, 0);
         border: 1px solid #FFFFFF;
