@@ -4,7 +4,7 @@ import './main';
 import { Button, FormGroup} from 'reactstrap';
 import firebaseConf from './main';
 import profilePic from "./contactpic.png";
-
+import {Helmet} from "react-helmet";
 
 class Contact extends Component {
   constructor(props) {
@@ -55,6 +55,11 @@ class Contact extends Component {
   }
     render() {
         return (
+          <React.Fragment>
+          <Helmet>
+          <title>Kontakt - CEDWebb</title>
+          <meta name="description" content="Kontakt - CEDWebb" charSet="utf-8" />
+          </Helmet>
           <div className ="contactcontainer">
           <h1 className ="contacttext animated fadeInDown">Kontakt</h1>
           <h3 className ="contacttext2 animated fadeInDown">Här nedan kan du hitta information om mig eller fylla i formuläret för att komma i kontakt med mig så snabbt som möjligt.</h3>
@@ -81,7 +86,7 @@ class Contact extends Component {
             </form>
         </div>
         <div className="contactcontainer3 animated fadeInRight">
-        <img className ="profilepic" src={profilePic} alt="Logo" />
+        <img className ="profilepic" src={profilePic} alt="Bild på anställd" />
         <h5>Namn: Carl Brunngård</h5>
         <h5>Email: carl.brunngard@student.kyh.se</h5>
         <h5>Tel: 076-852-4567</h5>
@@ -90,6 +95,7 @@ class Contact extends Component {
         <h5>Ort: Tullinge</h5>
         </div>
             </div>
+          </React.Fragment>
         );
     }
 }

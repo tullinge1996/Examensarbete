@@ -49,6 +49,7 @@ body{
     height: 100vh;
     grid-template-columns: repeat(6);
     grid-template-rows: 15% 15% 15% 15% 15% 25%;
+    overflow: hidden;
   }
 }
 
@@ -59,6 +60,7 @@ body{
     height: 93vh;
     grid-template-columns: repeat(6);
     grid-template-rows: 15% 15% 15% 15% 15% 25%;
+    overflow: hidden;
   }
 }
 @media only screen and (min-width: 1280px) {

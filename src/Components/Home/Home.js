@@ -3,15 +3,21 @@ import './Home.css';
 import { NavLink } from "react-router-dom";
 import "animate.css";
 import logo from "./logofix.png";
-
+import logo2 from "./websiteanimation.gif";
+import {Helmet} from "react-helmet";
 
 
 class Home extends Component {
    render() {
        return (
+          <React.Fragment>
+         <Helmet>
+         <title> Digital Webbyrå som levererar hemsidor till ett billigt pris - CEDWebb</title>
+         <meta name="description" content="Välkommen till CEDWebb, en Webbyrå som levererar hemsidor till ett billigt pris" charSet="utf-8" />
+         </Helmet>
            <div className="section2">
                <div className="container1 animated bounceInLeft">
-               <img className ="logolayouthome animated bounceInLeft" src={logo} alt="Logo" />
+               <img className ="logolayouthome animated bounceInLeft" src={logo} alt="Bild på företagslogga" />
                 </div>
                <div className="container2 animated bounceInLeft">
                    <h1>Sveriges 
@@ -36,9 +42,10 @@ class Home extends Component {
                    <NavLink to="/Contact"><h5>Kontakta oss</h5></NavLink>
                 </div>
                 <div className="container6 animated">
-                   <img className="animatedImage" src="https://useroom.com/wp-content/uploads/2017/05/website_wordpress_animation.gif" alt="Animated Computer gif"></img>
+                   <img className="animatedImage" src={logo2} alt="Animerat bildspel på olika enheter"></img>
                 </div>
            </div>
+           </React.Fragment>
        );
    }
 }

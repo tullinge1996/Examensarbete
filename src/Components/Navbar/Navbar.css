@@ -15,6 +15,11 @@
 .navbarOptions li a:hover{
     filter: drop-shadow(0 0 0.1rem orange);
     transition: ease-in-out 1;
+    -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
 
 }
 
