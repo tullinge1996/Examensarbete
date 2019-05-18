@@ -18,6 +18,7 @@
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
+       
     }
     .pricetext2{
         grid-row: 4/5;
@@ -26,6 +27,7 @@
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         -webkit-animation: fadein 3.5s;
+        
     }
     .pricecontainer1{
     grid-row: 6/13;
@@ -33,13 +35,12 @@
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
-    -webkit-animation: fadein 3.5s;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
-    position: fixed;
+    -webkit-animation: fadein 3.5s;
 }
 .pricecontainer2{
     grid-row: 14/21;
@@ -47,13 +48,12 @@
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
-    -webkit-animation: fadein 3.5s;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
-    position: fixed;
+    -webkit-animation: fadein 3.5s;
 }
 .pricecontainer3{
     grid-row: 22/29;
@@ -61,13 +61,12 @@
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
-    -webkit-animation: fadein 3.5s;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     border: 2px solid white;
-    position: fixed;
+    -webkit-animation: fadein 3.5s;
 }
 .cardImage3 {
     padding-top: 20px;
