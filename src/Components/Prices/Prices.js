@@ -14,7 +14,7 @@ import { Card, CardImg, CardBody,
           <title>Priser - CEDWebb</title>
           <meta name="description" content="Priser - CEDWebb" charSet="utf-8" />
           </Helmet>
-          <div className ="pricesection1 animated bounceInLeft">
+          <div className ="pricesection1">
           <h1 className ="pricetext ">Alla våra priser</h1>
           <h4 className ="pricetext2">Hitta det paket som passar just dig och dina behov</h4>
           <Card className="pricecontainer1 ">
