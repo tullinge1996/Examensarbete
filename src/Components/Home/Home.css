@@ -461,6 +461,7 @@
         grid-template-columns: repeat(28,1fr);
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
+        overflow: hidden;
     }
         .container2{
         grid-row: 13/19;
@@ -603,6 +604,7 @@
         grid-template-columns: repeat(28,1fr);
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
+        overflow: hidden;
     }
         .container2{
         grid-row: 13/19;
@@ -745,6 +747,7 @@
         grid-template-columns: repeat(28,1fr);
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
+        overflow: hidden;
     }
         .container2{
         grid-row: 13/19;
