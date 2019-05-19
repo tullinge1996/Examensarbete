@@ -3,13 +3,14 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 230vh;
+            height: 200vh;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
             background-repeat: no-repeat;
         background-size: cover;
         background-image: url("Gradient.png");
+        min-height: 600px;
             
     }
     .contactcontainer{
@@ -19,11 +20,10 @@
         
     }
     .contactcontainer2{
-        grid-row: 15/26;
+        grid-row: 15/27;
         grid-column: 2/7;
         text-align: center;
-        border-radius: 15px;
-        
+        border-radius: 15px;      
     }
     .emailtext{
         color:white;

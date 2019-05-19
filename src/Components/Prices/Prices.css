@@ -6,10 +6,11 @@
         grid-template-columns: repeat(7,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
-        height: 200vh;
+        min-height: 1300px;
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url("Gradient.png");
+        
     }
     .pricetext{
         grid-row: 2/6;
@@ -109,7 +110,7 @@
         grid-template-columns: repeat(14,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
-        height: 200vh;
+        min-height: 1300px;
         background-image: url("Gradient.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -214,7 +215,7 @@
         grid-template-columns: repeat(14,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
-        height: 200vh;
+        min-height: 1300px;
         background-image: url("Gradient.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -319,10 +320,7 @@
         grid-template-columns: repeat(28,1fr);
         grid-template-rows: repeat(28,1fr);
         grid-gap: 0;
-        height: 100vh;
-        background-image: none;
-        background-repeat: no-repeat;
-        background-size: cover;
+        min-height: 750px;
     }
     .pricetext{
         grid-row: 4/6;
@@ -352,6 +350,7 @@
         align-items: center;
         border-radius: 20px;
         border: 2px solid white;
+        position: fixed;
     }
     .pricecontainer2{
         grid-row: 12/26;
@@ -365,6 +364,7 @@
         align-items: center;
         border-radius: 20px;
         border: 2px solid white;
+        position: fixed;
     }
     .pricecontainer3{
         grid-row: 12/26;
@@ -378,6 +378,7 @@
         align-items: center;
         border-radius: 20px;
         border: 2px solid white;
+        position: fixed;
     }
     .cardImage3 {
         margin-top: 15%;
@@ -421,9 +422,6 @@
         grid-gap: 0;
         height: 93vh;
         overflow: hidden;
-        background-image: none;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .pricetext{
         grid-row: 4/6;

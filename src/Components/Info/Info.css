@@ -6,15 +6,25 @@
     grid-template-rows: repeat(56,1fr);
     grid-gap: 0;
     -webkit-animation: fadein 3.5s;
-    overflow: hidden;
+    
 }
 @media only screen and (max-width: 600px) {
+    .section1Info{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(14,1fr);
+        grid-template-rows: repeat(56,1fr);
+        grid-gap: 0;
+        -webkit-animation: fadein 3.5s;
+        min-height: 600px;
+    }
 .container1Info{
     grid-row: 2/10;
     grid-column: 2/7;
     color: white;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); 
 }
 .container2Info{
     grid-row: 12/53;
@@ -104,6 +114,16 @@
         color: white;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .section1Info{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(14,1fr);
+        grid-template-rows: repeat(56,1fr);
+        grid-gap: 0;
+        -webkit-animation: fadein 3.5s;
+        min-height: 800px;
     }
     .container2Info{
         grid-row: 13/52;
@@ -195,6 +215,16 @@
         color: white;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
+    }
+    .section1Info{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(14,1fr);
+        grid-template-rows: repeat(56,1fr);
+        grid-gap: 0;
+        -webkit-animation: fadein 3.5s;
+        min-height: 800px;
     }
     .container2Info{
         grid-row: 13/52;
@@ -288,7 +318,18 @@
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  
     }
-    .container2Info{
+
+    .section1Info{
+        display: grid;
+        grid-row: 1/7;
+        grid-column: 1/8;
+        grid-template-columns: repeat(14,1fr);
+        grid-template-rows: repeat(56,1fr);
+        grid-gap: 0;
+        -webkit-animation: fadein 3.5s;
+        min-height: 800px;
+    }
+        .container2Info{
         grid-row: 13/52;
         grid-column: 2/14;
         color: white;
@@ -380,7 +421,9 @@
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
         -webkit-animation: fadein 3.5s;
+        min-height: 800px;
     }
+    
     
     .container2Info{
         grid-row: 13/44;
@@ -478,6 +521,7 @@
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
         -webkit-animation: fadein 3.5s;
+        min-height: 700px;
     }
     
     .container2Info{
@@ -576,6 +620,7 @@
         grid-template-rows: repeat(56,1fr);
         grid-gap: 0;
         -webkit-animation: fadein 3.5s;
+        min-height: 800px;
     }
     
     .container2Info{

@@ -6,6 +6,7 @@
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
+            min-height: 600px;
             
     }
     .slideshow2{
@@ -92,7 +93,7 @@
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
-            
+            min-height: 750px;
     }
     .slideshow2{
         grid-row: 8/24;
@@ -129,14 +130,14 @@
         background-size: cover;
     }
     .slideshowtext{
-        grid-row: 3/5;
+        grid-row: 2/6;
         grid-column: 2/14;
         text-align: center;
         color: white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     }
     .slideshowtext2{
-        grid-row: 5/6;
+        grid-row: 6/7;
         grid-column: 3/13;
         text-align: center;
         color: white;
@@ -176,7 +177,7 @@
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
-            
+            min-height: 850px;
     }
     .slideshow2{
         grid-row: 8/24;
@@ -262,7 +263,7 @@
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             overflow: hidden;
-            
+            min-height: 800px;
     }
     .slideshow2{
         display: none;
@@ -433,7 +434,7 @@
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
             overflow: hidden;
-            
+            min-height: 700px;
     }
     .slideshow2{
         display: none;
@@ -601,7 +602,8 @@
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
-            overflow: hidden;
+           
+            min-height: 700px;
             
     }
     .slideshow2{
@@ -638,7 +640,7 @@
         background-size: cover;
     }
     .slideshowtext{
-        grid-row: 3/6;
+        grid-row: 3/4;
         grid-column: 3/13;
         text-align: center;
         color: white;
