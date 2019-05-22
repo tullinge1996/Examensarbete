@@ -69,21 +69,21 @@ class Contact extends Component {
           </div>
         </div>}
             <div className ="contactcontainer2 animated fadeInLeft">
-            <Form onSubmit={this.sendMessage.bind(this)} ref='contactForm' id ="contactForm">
+            <form onSubmit={this.sendMessage.bind(this)} ref='contactForm' id ="contactForm">
           <FormGroup>
-          <Label className="emailtext" htmlFor="exampleEmail">Namn</Label><br></br>
-          <Input type="Name" name="Name" id="exampleEmail" placeholder="Namn" ref={name => this.inputName = name} required/><br></br>
+          <label className="emailtext" htmlFor="exampleEmail">Namn</label><br></br>
+          <input type="Name" name="Name" id="exampleEmail" placeholder="Namn" ref={name => this.inputName = name} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <Label className="passwordtext" htmlFor="examplePassword">Email</Label><br></br>
-          <Input type="Email" name="Email" id="examplePassword" placeholder="Email" ref={email => this.inputEmail = email} required/><br></br>
+          <label className="passwordtext" htmlFor="examplePassword">Email</label><br></br>
+          <input type="Email" name="Email" id="examplePassword" placeholder="Email" ref={email => this.inputEmail = email} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <Label  className="textarea" htmlFor="exampleText">Meddelande</Label>
-          <Input type="textarea" name="text" className='form-control' id='exampleText' rows='4' ref={message => this.textAreaMessage = message}></Input>
+          <label  className="textarea" htmlFor="exampleText">Meddelande</label>
+          <textarea type="textarea" name="text" className='form-control' id='exampleText' rows='4' ref={message => this.textAreaMessage = message}></textarea>
         </FormGroup>
         <Button type="submit" className ="contactbutton">Skicka</Button>
-            </Form>
+            </form>
         </div>
         <div className="contactcontainer3 animated fadeInRight">
         <img className ="profilepic" src={profilePic} alt="Bild på anställd" />
