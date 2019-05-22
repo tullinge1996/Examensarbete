@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import './main';
-import { Button, FormGroup} from 'reactstrap';
+import { Button, FormGroup, Form, Label, Input} from 'reactstrap';
 import firebaseConf from './main';
 import profilePic from "./contactpic.png";
 import {Helmet} from "react-helmet";
@@ -69,21 +69,21 @@ class Contact extends Component {
           </div>
         </div>}
             <div className ="contactcontainer2 animated fadeInLeft">
-            <form onSubmit={this.sendMessage.bind(this)} ref='contactForm' id ="contactForm">
+            <Form onSubmit={this.sendMessage.bind(this)} ref='contactForm' id ="contactForm">
           <FormGroup>
-          <label className="emailtext" htmlFor="exampleEmail">Namn</label><br></br>
-          <input type="Name" name="Name" id="exampleEmail" placeholder="Namn" ref={name => this.inputName = name} required/><br></br>
+          <Label className="emailtext" htmlFor="exampleEmail">Namn</Label><br></br>
+          <Input type="Name" name="Name" id="exampleEmail" placeholder="Namn" ref={name => this.inputName = name} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <label className="passwordtext" htmlFor="examplePassword">Email</label><br></br>
-          <input type="Email" name="Email" id="examplePassword" placeholder="Email" ref={email => this.inputEmail = email} required/><br></br>
+          <Label className="passwordtext" htmlFor="examplePassword">Email</Label><br></br>
+          <Input type="Email" name="Email" id="examplePassword" placeholder="Email" ref={email => this.inputEmail = email} required/><br></br>
         </FormGroup>
         <FormGroup>
-          <label  className="textarea" htmlFor="exampleText">Meddelande</label>
-          <textarea type="textarea" name="text" className='form-control' id='exampleText' rows='4' ref={message => this.textAreaMessage = message}></textarea>
+          <Label  className="textarea" htmlFor="exampleText">Meddelande</Label>
+          <Input type="textarea" name="text" className='form-control' id='exampleText' rows='4' ref={message => this.textAreaMessage = message}></Input>
         </FormGroup>
         <Button type="submit" className ="contactbutton">Skicka</Button>
-            </form>
+            </Form>
         </div>
         <div className="contactcontainer3 animated fadeInRight">
         <img className ="profilepic" src={profilePic} alt="Bild på anställd" />

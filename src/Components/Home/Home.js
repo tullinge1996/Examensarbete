@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import { NavLink } from "react-router-dom";
 import "animate.css";
-import logo from "./logofix.png";
+import logo from "./logofixad.png";
 import logo2 from "./websiteanimation.gif";
 import {Helmet} from "react-helmet";
 

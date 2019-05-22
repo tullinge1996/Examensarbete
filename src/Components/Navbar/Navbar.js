@@ -8,7 +8,7 @@ import {
   Nav,
 } from 'reactstrap';
 import { NavLink } from "react-router-dom";
-import logo from "./logo2.png";
+import logo from "./logonav.png";
 
 export default class Navbar1 extends React.Component {
   constructor(props) {

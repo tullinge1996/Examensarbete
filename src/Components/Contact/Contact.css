@@ -9,7 +9,7 @@
             -webkit-animation: fadein 3.5s;
             background-repeat: no-repeat;
         background-size: cover;
-        background-image: url("bakgrund1.jpg");
+        background-image: url("gradient1.jpg");
         min-height: 600px;
             
     }
@@ -123,7 +123,7 @@
             -webkit-animation: fadein 3.5s;
             background-repeat: no-repeat;
         background-size: cover;
-        background-image: url("bakgrund1.jpg");
+        background-image: url("gradient1.jpg");
             
     }
     .contactcontainer{
@@ -237,7 +237,7 @@
             -webkit-animation: fadein 3.5s;
             background-repeat: no-repeat;
         background-size: cover;
-        background-image: url("bakgrund1.jpg");
+        background-image: url("gradient1.jpg");
             
     }
     .contactcontainer{

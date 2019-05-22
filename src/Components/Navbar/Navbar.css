@@ -84,6 +84,7 @@
         transition: ease-in-out 1;
 
     }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -119,6 +120,7 @@
         transition: ease-in-out 1;
 
     }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -154,6 +156,7 @@
         transition: ease-in-out 1;
 
     }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -189,6 +192,7 @@
         transition: ease-in-out 1;
 
     }
+    
 }
 /* Extra large devices (large laptops and desktops, 1400px and up) */
 @media only screen and (min-width: 1400px) {
@@ -223,6 +227,7 @@
         transition: ease-in-out 1;
 
     }
+    
 }
 /* Extra large devices (large laptops and desktops, 1680px and up) */
 @media only screen and (min-width: 1680px) {
@@ -257,4 +262,5 @@
         color: inherit;
         text-decoration: none;
     }
+   
 }
