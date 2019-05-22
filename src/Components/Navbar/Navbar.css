@@ -163,7 +163,7 @@
 @media only screen and (min-width: 1200px) {
     .navbar{
         background: rgba(0, 0, 0, 0.2);
-        height: 7vh;
+        height: 68px;
        }
     .section1x{
         color:rgb(255,255,255);
@@ -198,7 +198,7 @@
 @media only screen and (min-width: 1400px) {
     .navbar{
         background: rgba(0, 0, 0, 0.2);
-        height: 7vh;
+        height: 68px;
        }
     .section1x{
         color:rgb(255,255,255);
@@ -233,7 +233,7 @@
 @media only screen and (min-width: 1680px) {
     .navbar{
         background: rgba(0, 0, 0, 0.2);
-        height: 7vh;
+        height: 68px;
        }
     .section1x{
         color:rgb(255,255,255);

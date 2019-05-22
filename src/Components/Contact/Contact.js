@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import './main';
-import { Button, FormGroup, Form, Label, Input} from 'reactstrap';
+import { Button, FormGroup, Label} from 'reactstrap';
 import firebaseConf from './main';
 import profilePic from "./contactpic.png";
 import {Helmet} from "react-helmet";

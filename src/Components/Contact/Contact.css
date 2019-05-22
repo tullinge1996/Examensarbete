@@ -116,7 +116,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 1200px;
+            min-height: 1200px;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
@@ -230,7 +230,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 1200px;
+            min-height: 1200px;
             grid-template-columns: repeat(7,1fr);
             grid-template-rows: repeat(50,1fr);
             -webkit-animation: fadein 3.5s;
@@ -344,7 +344,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            height: 93vh;
+            min-height: 750px;
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
@@ -459,7 +459,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            min-height: 93vh;
+            min-height: 800px;
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
@@ -572,7 +572,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            min-height: 93vh;
+            min-height: 700px;
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
@@ -685,7 +685,7 @@
         display: grid;
             grid-row: 1/7;
             grid-column: 1/7;
-            min-height: 93vh;
+            min-height: 800px;
             grid-template-columns: repeat(14,1fr);
             grid-template-rows: repeat(28,1fr);
             -webkit-animation: fadein 3.5s;
