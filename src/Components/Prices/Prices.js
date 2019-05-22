@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './Prices.css';
 import { Card, CardImg, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-  import logo from "./logo2.png";
+  import logo from "./logofixad.png";
   import {Helmet} from "react-helmet";
 
   class Prices extends Component {

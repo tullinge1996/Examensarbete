@@ -177,13 +177,13 @@
 }
 .cardImage3 {
     margin-top: 10%;
-    width: 80%;
+    width: 70%;
 }
 .titletext{
     font-size: 2em;
 }
 .titletext2{
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 1.2em;
     width: 100%;
     text-align: center;
@@ -281,14 +281,14 @@
     border: 2px solid white;
 }
 .cardImage3 {
-    margin-top: 10%;
-    width: 80%;
+    margin-top: 5%;
+    width: 65%;
 }
 .titletext{
     font-size: 2em;
 }
 .titletext2{
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 1.2em;
     width: 100%;
     text-align: center;
@@ -339,7 +339,7 @@
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-        grid-row: 12/26;
+        grid-row: 12/23;
         grid-column: 2/10;
         text-align: center;
         color: white;
@@ -353,7 +353,7 @@
         
     }
     .pricecontainer2{
-        grid-row: 12/26;
+        grid-row: 12/23;
         grid-column: 11/19;
         text-align: center;
         color: white;
@@ -367,7 +367,7 @@
         
     }
     .pricecontainer3{
-        grid-row: 12/26;
+        grid-row: 12/23;
         grid-column: 20/28;
         text-align: center;
         color: white;
@@ -442,7 +442,7 @@
         -webkit-animation: fadein 3.5s;
     }
     .pricecontainer1{
-    grid-row: 11/26;
+    grid-row: 12/25;
     grid-column: 2/10;
     text-align: center;
     color: white;
@@ -455,7 +455,7 @@
     border: 2px solid white;
 }
 .pricecontainer2{
-    grid-row: 11/26;
+    grid-row: 12/25;
     grid-column: 11/19;
     text-align: center;
     color: white;
@@ -468,7 +468,7 @@
     border: 2px solid white;
 }
 .pricecontainer3{
-    grid-row: 11/26;
+    grid-row: 12/25;
     grid-column: 20/28;
     text-align: center;
     color: white;
@@ -481,8 +481,8 @@
     border: 2px solid white;
 }
 .cardImage3 {
-    margin-top: 9%;
-    width: 80%;
+    margin-top: 5%;
+    width: 70%;
 }
 .titletext{
     font-size: 2em;
